@@ -1,18 +1,18 @@
-
 # html lang
 language: en
 
 # header
-site_brand_name: Frame.
+site_brand_name: Alex.
 
 logo_image:
-  enable: false
-  image_path: /logo.png # path to your logo image
+  enable: true
+  image_path: /logo_ay.png # path to your logo image
 
 menu:
   Home: /
-  Archive: /archives/
-  Gallery: /categories/gallery/
+  About Me: /about/
+  Blogs: /archives/
+  Projects: /categories/gallery/
 
 # stylesheets loaded in the <head>
 stylesheets:
@@ -29,19 +29,21 @@ date_format: MMM D, YYYY
 
 # profile
 profile:
-  title: Hi, this is Frame. 
-  body: A minimal, elegant hexo theme.
-  image: /profile_cover.png
+  title: Hi, I'm Alex. 
+  body: An interdisciplinarily trained software engineer with 2+ years experience.
+  image: /profile_alex.jpg
 
   links:
-    Home: /
+    About Me: /about/
     Blogs: /archives/
+    Projects: /categories/gallery/
+    
 
 # footer
 footer:
   copyright_info:
-    enable: false
-    author:
+    enable: true
+    author: Alex Yao
 
   powered_by: # Powered by Hexo & Frame
     enable: true
